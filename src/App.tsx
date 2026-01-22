@@ -776,18 +776,11 @@ const LocationPage = () => {
 
   return (
     <div 
-       
-       
-      
       className="pt-40"
     >
       <div className="max-w-7xl mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-24 items-center mb-32">
-          <div
-            
-            
-            
-          >
+        <div className="max-w-4xl mb-32">
+          <div>
             <span className="inline-flex items-center gap-2 px-4 py-2 mb-8 text-xs font-black tracking-[0.2em] text-amber-700 uppercase bg-amber-100 rounded-md">
               Serving {cityName}, TX
             </span>
@@ -807,23 +800,6 @@ const LocationPage = () => {
             <a href="#contact" className="inline-block px-12 py-6 bg-gray-900 text-white rounded-xl font-black uppercase tracking-widest hover:bg-amber-600 transition-all shadow-2xl">
               Request {cityName} Consultation
             </a>
-          </div>
-          
-          <div 
-            
-            
-            
-            className="h-[600px] rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white  "
-          >
-            <iframe 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              loading="lazy" 
-              allowFullScreen 
-              title={`Landscape construction for ${cityName}`}
-              src={`https://www.google.com/maps/embed/v1/place?key=PLACEHOLDER_KEY&q=${cityName}+Texas&zoom=12`}
-            ></iframe>
           </div>
         </div>
 
